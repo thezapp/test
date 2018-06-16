@@ -1,0 +1,19 @@
+{
+    "name": "stiv/bracker",
+    "description": "test",
+    "authors": [
+        {
+            "name": "Stiv Stiv",
+            "email": "stiv@stiv.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\dto\\": "src/dto/",
+            "src\\services\\": "src/services/"
+        }
+    }
+}
